@@ -1,8 +1,9 @@
 /** @type {import('next').NextConfig} */
 module.exports = {
- webpack: (config) => {
-  config.resolve.fallback = { fs: false, path: false };
+  target: "serverless",
 
-  return config;
- },
+  webpack: (config) => {
+    config.module.rules.push({ test: /\.md$/, use: "raw-loader" });
+    return config;
+  },
 };
