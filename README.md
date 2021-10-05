@@ -31,14 +31,14 @@ And almost all the blog features
 
 You can set this up by :
 
-1. Click on Use this template button to create your own repository with this template
+Click on Use this template button to create your own repository with this template
 
-   or
+or
 
-   ```bash
-   git clone https://github.com/ps173/next-ts-blog-template.git
-   
-   ```
+```bash
+git clone https://github.com/ps173/next-ts-blog-template.git
+
+```
 
 to clone the repo and edit the source code :)
 
