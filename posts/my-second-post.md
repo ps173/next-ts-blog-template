@@ -1,11 +1,11 @@
 ---
 title: Another Dummy Post To Test
-slug: my-second-post
+description : Second Blog Let's GOoo
+author : Psx
 ---
 
 # Another Dummy Post
 
----
 
 This is another dummy post :)
 
